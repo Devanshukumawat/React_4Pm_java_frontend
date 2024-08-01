@@ -1,0 +1,35 @@
+.main{
+    width: 300px;
+    height: 530px;
+    border: 2px solid black;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 8px ;
+    margin-bottom:8px ;
+}
+
+.img{
+    width: 300px;
+    height: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.heading{
+    text-align: center;
+    color: brown;
+}
+
+.heading3{
+    text-align: center;
+    color: blue;
+}
+
+.btn{
+    background-color: green;
+    color: white;
+    width: 300px;
+    padding: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+}
