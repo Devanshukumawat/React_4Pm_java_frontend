@@ -85,6 +85,7 @@ import Navbar from "./Webpage/Navbar";
 
 import {BrowserRouter,Routes,Route} from "react-router-dom"
 import Ref from "./Ref/Ref";
+import Reducer from "./UseReducer/Reducer";
 
 const data = createContext()
 
@@ -113,6 +114,7 @@ function App() {
           <Route path="/propdrill" element={<ChildA data={userData}/>}/>
           <Route path="/contextapi" element={<Child1/>}/>
           <Route path="/ref" element={<Ref/>}/>
+          <Route path="/reducer" element={<Reducer/>}/>
        
         </Routes>
         </data.Provider> 

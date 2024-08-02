@@ -55,6 +55,11 @@ function Navbar() {
                   Ref-Hook
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/reducer">
+                  Reducer
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
